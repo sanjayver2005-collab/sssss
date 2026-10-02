@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minted — Creative Designer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+    <div class="nav-inner">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">✦</span>
+            minted.
+        </a>
+
+        <nav id="navMenu">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#work">Work</a>
+            <a href="#process">Process</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="talk-btn">Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero section" id="home">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <span class="badge">
+                UI/UX & Product Designer 🎨
+            </span>
+
+            <h1>
+                I design digital<br>
+                products people<br>
+                <span>love</span> to use.
+            </h1>
+
+            <p>
+                Hi, I'm Aisha — a UI/UX and product designer helping
+                startups turn ideas into intuitive, beautiful and
+                impactful digital experiences.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#work" class="primary-btn">
+                    View My Work
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#" class="resume-btn" onclick="downloadResume(event)">
+                    <i class="fa-solid fa-download"></i>
+                    Download Resume
+                </a>
+
+            </div>
+
+            <div class="trusted">
+                <span>Trusted by startups and teams at</span>
+
+                <div class="brands">
+                    <b>◉ Loop</b>
+                    <b>cloudly</b>
+                    <b>tailwind</b>
+                    <b>upstash</b>
+                    <b>webdevs</b>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="circle-bg"></div>
+
+            <div class="scribble scribble-one">〰</div>
+            <div class="scribble scribble-two">♡</div>
+
+            <img
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=700&q=85"
+                alt="Designer"
+                class="designer-photo">
+
+            <div class="dashboard laptop">
+                <div class="dashboard-top">
+                    <b>Good morning, Aisha 👋</b>
+                    <span>•••</span>
+                </div>
+
+                <div class="dashboard-number">
+                    $26,700
+                </div>
+
+                <div class="chart">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="dashboard-bottom">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="dashboard mobile-dashboard">
+                <div class="mobile-head"></div>
+                <div class="mobile-number">$6,284.00</div>
+                <div class="mobile-line"></div>
+                <div class="mobile-line small"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about section" id="about">
+
+    <div class="about-image">
+        <img
+            src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=85"
+            alt="Designer working">
+
+        <div class="coffee-note">
+            ☕<br>
+            <strong>coffee<br>please</strong>
+        </div>
+    </div>
+
+
+    <div class="about-content">
+
+        <span class="section-label">ABOUT ME</span>
+
+        <h2>
+            I'm a designer who cares about
+            <strong>people, products and purpose.</strong>
+        </h2>
+
+        <p>
+            With 5+ years of experience, I design clean, user-centered
+            interfaces that solve real problems and create meaningful
+            impact. I work with early-stage startups to growing product
+            teams, collaborating, iterating and bringing ideas to life.
+        </p>
+
+        <div class="stats">
+
+            <div class="stat">
+                <div class="stat-icon">◷</div>
+                <strong>5+ Years</strong>
+                <span>Experience</span>
+            </div>
+
+            <div class="stat">
+                <div class="stat-icon blue">✓</div>
+                <strong>120+ Projects</strong>
+                <span>Completed</span>
+            </div>
+
+            <div class="stat">
+                <div class="stat-icon orange">☀</div>
+                <strong>10+ Happy</strong>
+                <span>Clients</span>
+            </div>
+
+        </div>
+
+        <a href="#contact" class="small-btn">
+            More About Me
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services section" id="services">
+
+    <div class="section-heading">
+
+        <span class="section-label">WHAT I DO</span>
+
+        <h2>
+            Design services that help your product shine.
+        </h2>
+
+    </div>
+
+
+    <div class="service-grid">
+
+        <div class="service-card">
+
+            <div class="service-icon green">
+                <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+
+            <h3>UI/UX Design</h3>
+
+            <p>
+                Beautiful, intuitive interfaces that provide seamless
+                user experiences.
+            </p>
+
+            <a href="#contact">Learn more →</a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon blue">
+                <i class="fa-solid fa-cube"></i>
+            </div>
+
+            <h3>Product Design</h3>
+
+            <p>
+                End-to-end product design from ideation to polished
+                solutions.
+            </p>
+
+            <a href="#contact">Learn more →</a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon purple">
+                <i class="fa-solid fa-grip"></i>
+            </div>
+
+            <h3>Design Systems</h3>
+
+            <p>
+                Scalable design systems that keep your product
+                consistent.
+            </p>
+
+            <a href="#contact">Learn more →</a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon red">
+                <i class="fa-regular fa-file-lines"></i>
+            </div>
+
+            <h3>Prototyping</h3>
+
+            <p>
+                Interactive prototypes to validate ideas and test
+                user flows.
+            </p>
+
+            <a href="#contact">Learn more →</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WORK ================= -->
+
+<section class="work section" id="work">
+
+    <div class="section-heading">
+
+        <span class="section-label">SELECTED WORK</span>
+
+        <h2>A few recent projects I'm proud of.</h2>
+
+    </div>
+
+
+    <div class="work-grid">
+
+        <div class="project-card">
+
+            <div class="project-image green-project">
+
+                <span class="project-logo">finzee</span>
+
+                <div class="project-screen">
+                    <div class="screen-header"></div>
+                    <div class="screen-box"></div>
+                    <div class="screen-box small"></div>
+                    <div class="screen-chart"></div>
+                </div>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-type">FinTech</span>
+
+                <h3>Finzee — Personal Finance App</h3>
+
+                <p>
+                    A modern finance app that helps users track
+                    expenses, set budgets and save smarter.
+                </p>
+
+                <a href="#">View Case Study →</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <div class="project-image purple-project">
+
+                <span class="project-logo">roomsy</span>
+
+                <div class="property-card">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-type">PropTech</span>
+
+                <h3>Roomsy — Property Rental Platform</h3>
+
+                <p>
+                    A seamless platform connecting renters with
+                    verified properties and owners.
+                </p>
+
+                <a href="#">View Case Study →</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <div class="project-image orange-project">
+
+                <span class="project-logo">taskly</span>
+
+                <div class="task-screen">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-type">SaaS</span>
+
+                <h3>Taskly — Project Management Tool</h3>
+
+                <p>
+                    A clean and simple tool to manage projects,
+                    tasks and team collaboration efficiently.
+                </p>
+
+                <a href="#">View Case Study →</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROCESS ================= -->
+
+<section class="process section" id="process">
+
+    <div class="section-heading">
+
+        <span class="section-label">MY PROCESS</span>
+
+        <h2>A thoughtful process for great results.</h2>
+
+    </div>
+
+
+    <div class="process-line">
+
+        <div class="process-step">
+
+            <div class="process-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <small>01</small>
+            <h3>Discover</h3>
+
+            <p>
+                Understand users,
+                goals and the problem deeply.
+            </p>
+
+        </div>
+
+
+        <div class="process-step">
+
+            <div class="process-icon blue">
+                <i class="fa-regular fa-lightbulb"></i>
+            </div>
+
+            <small>02</small>
+            <h3>Define</h3>
+
+            <p>
+                Analyze insights and
+                define the right direction.
+            </p>
+
+        </div>
+
+
+        <div class="process-step">
+
+            <div class="process-icon purple">
+                <i class="fa-solid fa-pen"></i>
+            </div>
+
+            <small>03</small>
+            <h3>Design</h3>
+
+            <p>
+                Create wireframes,
+                flows and beautiful UI.
+            </p>
+
+        </div>
+
+
+        <div class="process-step">
+
+            <div class="process-icon orange">
+                <i class="fa-solid fa-play"></i>
+            </div>
+
+            <small>04</small>
+            <h3>Prototype</h3>
+
+            <p>
+                Build interactive prototypes
+                and test with users.
+            </p>
+
+        </div>
+
+
+        <div class="process-step">
+
+            <div class="process-icon green">
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+
+            <small>05</small>
+            <h3>Deliver</h3>
+
+            <p>
+                Refine, handoff and support
+                for successful launch.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="testimonials section" id="testimonials">
+
+    <div class="section-heading">
+
+        <span class="section-label">KIND WORDS</span>
+
+        <h2>What clients and teammates say.</h2>
+
+    </div>
+
+
+    <div class="testimonial-grid">
+
+        <div class="testimonial">
+
+            <div class="quote">“</div>
+
+            <p>
+                Aisha is an exceptional designer who brings
+                clarity to complex problems and delivers
+                outstanding results.
+            </p>
+
+            <div class="person">
+
+                <div class="avatar">RS</div>
+
+                <div>
+                    <strong>Rohan Sharma</strong>
+                    <small>Co-founder, Loop</small>
+                </div>
+
+                <b>◉ Loop</b>
+
+            </div>
+
+        </div>
+
+
+        <div class="testimonial">
+
+            <div class="quote">“</div>
+
+            <p>
+                Working with Aisha was a game-changer.
+                Her designs are not only beautiful but
+                also highly user-centric.
+            </p>
+
+            <div class="person">
+
+                <div class="avatar purple-avatar">SP</div>
+
+                <div>
+                    <strong>Sneha Patel</strong>
+                    <small>Product Lead, Cloudly</small>
+                </div>
+
+                <b>cloudly</b>
+
+            </div>
+
+        </div>
+
+
+        <div class="testimonial">
+
+            <div class="quote">“</div>
+
+            <p>
+                Aisha's attention to detail and design
+                thinking helped us build a product our
+                users truly love.
+            </p>
+
+            <div class="person">
+
+                <div class="avatar orange-avatar">KV</div>
+
+                <div>
+                    <strong>Kunal Verma</strong>
+                    <small>CEO, Upstash</small>
+                </div>
+
+                <b>upstash</b>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT CTA ================= -->
+
+<section class="contact-section section" id="contact">
+
+    <div class="contact-box">
+
+        <div class="plant">🌿</div>
+
+        <div class="mail-icon">
+            ✉️
+            <span>1</span>
+        </div>
+
+        <div class="contact-content">
+
+            <h2>Let's build something amazing together.</h2>
+
+            <p>
+                Have a project in mind or just want to say hi?
+                I'd love to hear from you.
+            </p>
+
+            <div class="contact-info">
+
+                <a href="mailto:hello@example.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    hello@example.com
+                </a>
+
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Bengaluru, India
+                </span>
+
+                <a href="#" class="talk-btn">
+                    Let's Talk
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="coffee">☕</div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">✦</span>
+                minted.
+            </a>
+
+            <p>
+                Designing products that people
+                love and businesses grow.
+            </p>
+
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-behance"></i></a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Quick Links</h4>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#work">Work</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Resources</h4>
+
+            <a href="#">Process</a>
+            <a href="#">Blog</a>
+            <a href="#">Design System</a>
+            <a href="#">Style Guide</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Legal</h4>
+
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Refund Policy</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Let's Connect</h4>
+
+            <a href="mailto:hello@example.com">
+                <i class="fa-solid fa-envelope"></i>
+                hello@example.com
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-location-dot"></i>
+                Bengaluru, India
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+        © 2026 Minted. All rights reserved.
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
